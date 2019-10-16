@@ -1,3 +1,6 @@
+MODE = STA
+TARGET = LINUX
+
 all:
 	make -C src/ osutil
 	make -C src/ build_tools

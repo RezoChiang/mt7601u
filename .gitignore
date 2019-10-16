@@ -1,5 +1,6 @@
 # Object files
 *.o
+*.o.d
 *.ko
 *.obj
 *.elf
@@ -16,6 +17,7 @@
 
 # Executables
 *.exe
+*.bin
 *.out
 *.app
 *.i*86
@@ -29,3 +31,4 @@
 bin2h
 Module.symvers
 modules.orde
+.ccls-cache
